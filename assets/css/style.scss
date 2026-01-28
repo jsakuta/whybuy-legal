@@ -1,0 +1,21 @@
+---
+---
+
+@import "jekyll-theme-primer";
+
+/* Hide repository name header */
+.pagehead,
+header.pagehead,
+.Header,
+header .Header-item,
+header > div:first-child,
+.project-name,
+h1.project-name {
+  display: none !important;
+}
+
+/* Also hide any auto-generated header with repo name */
+body > header,
+.page-header {
+  display: none !important;
+}
