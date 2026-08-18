@@ -1,6 +1,14 @@
-# プライバシーポリシー
+---
+layout: default
+title: "プライバシーポリシー — WHYBUY"
+description: "WHYBUYが取得する情報と、その利用・保存・削除の取り扱いについて。"
+doc_type: privacy
+doc_title: プライバシーポリシー
+doc_subtitle: 本アプリが取得する情報と、その利用・保存・削除の取り扱いについて説明します。
+last_updated: 2026年2月12日
+---
 
-最終更新日: 2026年2月12日
+# プライバシーポリシー
 
 ## はじめに
 

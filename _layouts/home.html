@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#16233F">
+  <title>{{ page.title }}</title>
+  {% seo %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ '/assets/logo.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+</head>
+<body class="home-page">
+
+  <header class="site-header site-header--home">
+    <div class="site-header__inner">
+      <span class="brand" aria-label="WHYBUY">
+        <img class="brand__logo" src="{{ '/assets/logo.png' | relative_url }}" alt="" width="26" height="26">
+        WHYBUY
+      </span>
+    </div>
+  </header>
+
+  <main class="home">
+    <section class="hero">
+      <img class="hero__logo" src="{{ '/assets/logo.png' | relative_url }}" alt="WHYBUY" width="68" height="68">
+      <p class="hero__eyebrow">WHYBUY · Legal</p>
+      <h1 class="hero__title">法的文書</h1>
+      <p class="hero__lead">iOSアプリ「WHYBUY」の各文書をご確認いただけます。<br><span class="hero__lead-sub">Privacy Policy &amp; Terms of Service</span></p>
+    </section>
+
+    <section class="doc-cards" aria-label="文書を選択">
+      <a class="doc-card" href="{{ '/privacy-policy.html' | relative_url }}">
+        <span class="doc-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 6v5c0 4.2 2.8 8 7 9 4.2-1 7-4.8 7-9V6l-7-3Z"/><path d="m9.3 11.8 1.9 1.9 3.6-3.8"/></svg>
+        </span>
+        <h2 class="doc-card__title">プライバシーポリシー</h2>
+        <p class="doc-card__title-en">Privacy Policy</p>
+        <p class="doc-card__desc">取得する情報と、その利用・保存・削除の取り扱いについて。</p>
+        <span class="doc-card__more">読む</span>
+      </a>
+
+      <a class="doc-card" href="{{ '/terms-of-service.html' | relative_url }}">
+        <span class="doc-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h7l5 5v13H6z"/><path d="M13 3v5h5"/><path d="M9 12.5h6M9 15.5h6M9 9.5h2"/></svg>
+        </span>
+        <h2 class="doc-card__title">利用規約</h2>
+        <p class="doc-card__title-en">Terms of Service</p>
+        <p class="doc-card__desc">本サービスの利用条件、料金プラン、課金・解約の取り扱いについて。</p>
+        <span class="doc-card__more">読む</span>
+      </a>
+
+      <a class="doc-card" href="{{ '/tokushoho.html' | relative_url }}">
+        <span class="doc-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v14H4z"/><path d="M4 9h16"/><path d="M9 9v10"/></svg>
+        </span>
+        <h2 class="doc-card__title">特定商取引法に基づく表記</h2>
+        <p class="doc-card__title-en">Legal Notice</p>
+        <p class="doc-card__desc">販売条件、支払方法、解約方法などの表示事項。</p>
+        <span class="doc-card__more">読む</span>
+      </a>
+    </section>
+
+    <p class="home-note">
+      最終更新: {{ page.last_updated }}<br>
+      ご質問やご不明点は、アプリ内の「設定」→「お問い合わせ」よりご連絡ください。
+    </p>
+  </main>
+
+  <footer class="site-footer site-footer--home">
+    <p class="site-footer__legal">© 2026 Junki Sakuta. All rights reserved.</p>
+  </footer>
+</body>
+</html>

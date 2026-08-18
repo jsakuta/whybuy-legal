@@ -1,3 +1,13 @@
+---
+layout: page
+title: "特定商取引法に基づく表記 — WHYBUY"
+description: "WHYBUYの販売条件、支払方法、解約方法などの表示事項。"
+doc_type: tokushoho
+doc_title: 特定商取引法に基づく表記
+doc_subtitle: 有料プランの販売条件、支払方法、解約方法などの表示事項です。
+last_updated: 2026年2月12日
+---
+
 # 特定商取引法に基づく表記
 
 | 項目 | 内容 |

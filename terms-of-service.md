@@ -1,6 +1,14 @@
-# 利用規約
+---
+layout: default
+title: "利用規約 — WHYBUY"
+description: "WHYBUYの利用条件、料金プラン、課金・解約の取り扱いについて。"
+doc_type: terms
+doc_title: 利用規約
+doc_subtitle: 本サービスの利用条件、料金プラン、課金・解約の取り扱いを定めます。
+last_updated: 2026年2月12日
+---
 
-最終更新日: 2026年2月12日
+# 利用規約
 
 ## 第1条（総則）
 

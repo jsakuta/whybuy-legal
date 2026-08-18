@@ -1,2 +1,28 @@
-theme: jekyll-theme-primer
-title: ""
+title: WHYBUY — 法的文書
+description: iOSアプリ「WHYBUY」のプライバシーポリシー・利用規約・特定商取引法に基づく表記
+baseurl: "/whybuy-legal"
+url: "https://jsakuta.github.io"
+locale: ja_JP
+repository: jsakuta/whybuy-legal
+lang: ja
+markdown: kramdown
+
+# カスタムレイアウト (_layouts/) を使用するためテーマは無効化
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# 公開サイトに含めないファイル
+exclude:
+  - CLAUDE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .github/
